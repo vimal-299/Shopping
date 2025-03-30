@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid black;
+    padding: 0 20px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.brand {
+    margin-right: auto; 
+}
+
+.right-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-item {
+    gap: 20px;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.searchbar input {
+    width: 25vw;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}

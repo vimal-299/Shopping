@@ -1,0 +1,63 @@
+.yourcart{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.boxes{
+    display: flex;
+    gap: 50px;
+}
+.cart-items{
+    height: 70vh;
+    width: 50vw;
+    border: 2px solid rgba(0,0,0,0.2);
+    margin-top: 20px;
+    margin-left: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.order-summary{
+    height: 50vh;
+    width: 35vw;
+    border: 2px solid rgba(0,0,0,0.2);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.summary-head{
+    margin: 20px;
+}
+.subtotalcost{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.totalcost{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 25px;
+}
+.deliverycost{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.cart-text{
+    color: rgba(0,0,0,0.6);
+}
+.buy-now{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 15px 30px;
+    width: 30vw;
+    font-size: 15px;
+    margin: 20px;
+    margin-left: 30px;
+}

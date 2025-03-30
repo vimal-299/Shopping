@@ -1,0 +1,14 @@
+.signup-page{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F0F1;
+}
+
+.signup-box{
+    height: 70vh;
+    width: 30vw;
+    border: 2px solid black;
+    background-color: white;
+}

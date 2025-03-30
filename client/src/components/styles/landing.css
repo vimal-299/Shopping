@@ -1,0 +1,67 @@
+.page{
+    height: 100vh;
+}
+.main{
+    height: 75vh;
+    background-color: #F2F0F1;
+    align-items: center;
+}
+.text-content{
+    text-align: left;
+    font-size: 45px;
+    margin-left: 60px;
+    padding-top: 10vh;
+}
+.bio{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.details{
+    display: flex;
+    gap: 30px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.number{
+    padding-right: 10px;
+}
+.number1,.number2{
+    border-right: 1px solid black;
+}
+.footer{
+    background-color: black;
+    height: 15vh;
+}
+.brands{
+    list-style: none;
+    color: white;
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    padding-top: 20px;
+}
+.brandnames{
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width:768px){
+    .text-content{
+        text-align: left;
+        font-size: 30px;
+        margin-left: 30px;
+        padding-top: 30px;
+    }
+    .bio{
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .details{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+}
