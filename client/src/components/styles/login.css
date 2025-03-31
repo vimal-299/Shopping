@@ -11,4 +11,27 @@
     width: 30vw;
     border: 2px solid black;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcomebackbox{
+    border: 2px solid black;
+    height: 70vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    margin: 15px 30px;
+    background-color: black;
+    color: white;
 }

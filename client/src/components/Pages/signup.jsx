@@ -21,19 +21,22 @@ const signup = () => {
 
   return (
     <div className='signup-page'> 
-
-      <div className="signup-box">
-        <form onSubmit={handlesubmit}>
-          <h2>NAME</h2>
-          <input type="text" placeholder='Enter your name' onChange={(e)=>{setname(e.target.value)}} />
-          <h2>EMAIL ID</h2>
-          <input type="text" placeholder='Enter your email id' onChange={(e)=>{setemail(e.target.value)}} />
-          <h2>PASSWORD</h2>
-          <input type="text" placeholder='Enter your password' onChange={(e)=>{setpassword(e.target.value)}} />
-          <button>Sign Up</button>
-        </form>
+      <div className="welcomebox">
+        <h3 className='journey'>Let's Start the Journey</h3>
         <p>Already have an account ?</p>
-        <Link to="/login"><button>Login</button></Link>
+        <Link to="/login"><button className='login-button'>Login</button></Link>
+      </div>
+      <div className="signup-box">
+        <form onSubmit={handlesubmit} className='form'>
+          <h1>Create Account</h1>
+          {/* <h2 className='details-info'>NAME</h2> */}
+          <input className='field' type="text" placeholder='Enter your name' onChange={(e)=>{setname(e.target.value)}} />
+          {/* <h2 className='details-info'>EMAIL ID</h2> */}
+          <input className='field' type="text" placeholder='Enter your email id' onChange={(e)=>{setemail(e.target.value)}} />
+          {/* <h2 className='details-info'>PASSWORD</h2> */}
+          <input className='field' type="text" placeholder='Enter your password' onChange={(e)=>{setpassword(e.target.value)}} />
+          <button className='signup-button'>Sign Up</button>
+        </form>
       </div>
 
     </div>

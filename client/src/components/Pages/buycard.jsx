@@ -15,7 +15,6 @@ const buycard = (props) => {
             axios.delete("http://localhost:8000/remove-cart-product",{data: product})
             .then((res)=>{console.log(res.data)})
         }
-        console.log(count , props.id)    
     }, [count])
 
   return (
