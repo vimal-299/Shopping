@@ -29,12 +29,9 @@ const signup = () => {
       <div className="signup-box">
         <form onSubmit={handlesubmit} className='form'>
           <h1>Create Account</h1>
-          {/* <h2 className='details-info'>NAME</h2> */}
-          <input className='field' type="text" placeholder='Enter your name' onChange={(e)=>{setname(e.target.value)}} />
-          {/* <h2 className='details-info'>EMAIL ID</h2> */}
-          <input className='field' type="text" placeholder='Enter your email id' onChange={(e)=>{setemail(e.target.value)}} />
-          {/* <h2 className='details-info'>PASSWORD</h2> */}
-          <input className='field' type="text" placeholder='Enter your password' onChange={(e)=>{setpassword(e.target.value)}} />
+          <input className='field' type="text" placeholder='Enter your name' required onChange={(e)=>{setname(e.target.value)}} />
+          <input className='field' type="email" placeholder='Enter your email id' required onChange={(e)=>{setemail(e.target.value)}} />
+          <input className='field' type="password" placeholder='Enter your password' required pattern=".*[A-Z].*" title="Password must contain at least one uppercase letter" onChange={(e)=>{setpassword(e.target.value)}} />
           <button className='signup-button'>Sign Up</button>
         </form>
       </div>
